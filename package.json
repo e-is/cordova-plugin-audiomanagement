@@ -1,5 +1,5 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "name": "@e-is/cordova-plugin-audiomanagement",
     "cordova_name": "Audio management plugin",
     "description": "A plugin to manage audio mode and volume",
