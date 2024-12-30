@@ -1,17 +1,18 @@
 {
-    "version": "1.0.1",
-    "name": "clovelced-plugin-audiomanagement",
+    "version": "1.0.2",
+    "name": "@e-is/cordova-plugin-audiomanagement",
     "cordova_name": "Audio management plugin",
     "description": "A plugin to manage audio mode and volume",
     "license": "Apache 2.0",
-    "repo": "https://github.com/clovelCed/cordova-plugin-audiomanagement",
-    "issue": "https://github.com/clovelCed/cordova-plugin-audiomanagement/issues",
+    "repo": "https://github.com/e-is/cordova-plugin-audiomanagement",
+    "issue": "https://github.com/e-is/cordova-plugin-audiomanagement/issues",
     "repository": {
       "type": "git",
-      "url": "https://github.com/clovelCed/cordova-plugin-audiomanagement"
+      "url": "https://github.com/e-is/cordova-plugin-audiomanagement"
     },
     "keywords": [
-        "cordova",
+        "ecosystem:cordova",
+        "cordova-android",
         "device",
         "audio",
         "volume",
@@ -21,5 +22,18 @@
         "android"
     ],
     "englishdoc": "",
-    "author": "Cédric CLOVEL"
+    "author": "Cédric CLOVEL",
+    "contributors": [
+        {
+            "name": "Scott Waring",
+            "url": "https://github.com/ScottWaring"
+        },
+        {
+            "name": "E-IS",
+            "url": "https://github.com/e-is"
+        }
+    ],
+    "publishConfig": {
+        "access": "public"
+    }
 }
