@@ -4,11 +4,11 @@
         id="clovelced-plugin-audiomanagement"
         version="1.0.1">
     <name>AudioManagement</name>
-    <description>A plugin to manage audio mode and volume</description>
+    <description>A plugin to manage audio mode and volume on Android</description>
     <license>Apache 2.0</license>
     <keywords>cordova,plugin,ringtone mode, volume, audio mode</keywords>
-    <repo>https://github.com/clovelCed/cordova-plugin-audiomanagement</repo>
-    <issue>https://github.com/clovelCed/cordova-plugin-audiomanagement/issues</issue>
+    <repo>https://github.com/e-is/cordova-plugin-audiomanagement</repo>
+    <issue>https://github.com/e-is/cordova-plugin-audiomanagement/issues</issue>
 
     <js-module src="www/AudioManagement.js" name="AudioManagement">
         <clobbers target="AudioManagement" />
@@ -21,6 +21,6 @@
         </feature>
       </config-file>
 
-      <source-file src="src/android/AudioManagement.java" target-dir="src/com/cedricclovel/AudioManagement/"/>
+      <source-file src="src/android/AudioManagement.java" target-dir="src/com/cedricclovel/audiomanagement/"/>
     </platform>
 </plugin>
