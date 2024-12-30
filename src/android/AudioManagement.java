@@ -173,7 +173,7 @@ public class AudioManagement extends CordovaPlugin {
   }
 
   private void checkNotificationAccess(){
-    if (Build.VERSION.SDK_INT >= 23 && !hasNotificationPermissionGranted()) {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !hasNotificationPermissionGranted()) {
       Intent intent = new Intent(Settings.ACTION_NOTIFICATION_POLICY_ACCESS_SETTINGS);
       intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
       context.startActivity(intent);
@@ -181,7 +181,7 @@ public class AudioManagement extends CordovaPlugin {
 }
 
   private boolean hasNotificationPermissionGranted() {
-    if (Build.VERSION.SDK_INT >= 23) {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
       assert notificationManager != null;
       return notificationManager.isNotificationPolicyAccessGranted();
     } else {
